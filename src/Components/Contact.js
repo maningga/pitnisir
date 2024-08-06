@@ -1,11 +1,12 @@
 import React from 'react';
+import './Contact.css';
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <div id="contact" className="section-container">
       <h2>Contact Me</h2>
-      <p>This is the contact section.</p>
-    </section>
+      <p>How people can get in touch with you.</p>
+    </div>
   );
 };
 

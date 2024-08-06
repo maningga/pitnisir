@@ -1,0 +1,13 @@
+/* src/Components/Skills.css */
+.skills {
+    padding: 60px 20px; /* Adjust padding if needed */
+    color: white; /* Text color */
+    text-align: center; /* Center text */
+  }
+  
+  .skills-container {
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    display: inline-block; /* Fit content width */
+  }
+  

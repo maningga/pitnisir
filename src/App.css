@@ -1,27 +1,99 @@
+/* src/App.css */
+
 body {
-  font-family: Arial, sans-serif;
   margin: 0;
+  font-family: Arial, sans-serif;
+  color: #333;
+  line-height: 1.6;
+  background: url('piksor/bgp.jpg') no-repeat center center fixed;
+  background-size: cover;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 178px;
+}
+
+/* Container styling */
+.container {
+  position: relative;
+  padding: 50px 20px;
+  margin: 0 auto;
+  max-width: 1200px; /* Adjust based on your design */
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  border-radius: 10px; /* Optional: rounded corners */
+  z-index: 2; /* Ensure it’s above the background */
+}
+
+/* General Section Styles */
+section {
+  position: relative;
+  padding: 50px 20px;
+  color: #000; /* Black text color */
+}
+
+/* Overlay styles */
+section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
+  z-index: 1; /* Ensure it’s behind the text but above the background */
+}
+
+/* Ensure text content is above the overlay */
+section > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
+}
+
+/* Specific section styles */
+.Home, .About, .Projects, .Skills, .Contact {
+  padding: 50px 20px;
+}
+
+.Home {
+  text-align: center;
+}
+
+.Home h1 {
+  font-size: 2.5rem;
+}
+
+.Navbar ul {
+  list-style: none;
   padding: 0;
 }
 
-nav {
-  background-color: #333;
+.Navbar li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.btn {
+  background: #007bff;
   color: #fff;
-  padding: 1rem;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
 }
 
-nav ul {
-  list-style-type: none;
-  display: flex;
-  justify-content: space-around;
-}
+@media (max-width: 768px) {
+  .Navbar ul {
+    flex-direction: column;
+  }
 
-nav ul li {
-  cursor: pointer;
+  .Navbar li {
+    margin: 10px 0;
+  }
+  /* src/App.css or global CSS file */
+html {
+  scroll-behavior: smooth;
 }
-
-section {
-  padding: 2rem;
-  margin: 2rem 0;
-  border-bottom: 1px solid #ddd;
 }

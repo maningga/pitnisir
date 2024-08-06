@@ -1,11 +1,12 @@
 import React from 'react';
+import './Home.css';
 
 const Home = () => {
   return (
-    <section id="home">
+    <div id="home" className="section-container">
       <h1>Welcome to My Portfolio</h1>
-      <p>This is the home section.</p>
-    </section>
+      <p>Introduction and overview of your work.</p>
+    </div>
   );
 };
 

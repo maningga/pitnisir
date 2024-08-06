@@ -1,0 +1,47 @@
+/* src/Components/Navbar.css */
+.navbar {
+  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background for the navbar */
+  color: white; /* Text color */
+  padding: 10px 0; /* Padding for the navbar */
+  position: fixed; /* Fixed positioning */
+  width: 100%; /* Full width */
+  top: 0; /* Stick to the top */
+  left: 0;
+  z-index: 1000; /* Ensure it stays on top */
+}
+
+.navbar .container {
+  max-width: 1200px; /* Max width for content */
+  margin: 0 auto; /* Center content */
+  display: flex; /* Flexbox layout */
+  justify-content: space-between; /* Space between logo and links */
+  align-items: center; /* Center items vertically */
+  background: transparent; /* Make container background transparent */
+}
+
+.logo {
+  font-size: 1.5rem; /* Logo size */
+  font-weight: bold; /* Logo weight */
+}
+
+.nav-links {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Flexbox for links */
+  gap: 20px; /* Space between links */
+}
+
+.nav-links li {
+  display: inline; /* Inline display for links */
+}
+
+.nav-links a {
+  color: white; /* Link color */
+  text-decoration: none; /* Remove underline */
+  padding: 5px 10px; /* Padding around links */
+  border-radius: 5px; /* Rounded corners */
+  transition: background 0.3s; /* Smooth background transition */
+}
+
+.nav-links a:hover {
+  background: rgba(255, 255, 255, 0.2); /* Light hover effect */
+}

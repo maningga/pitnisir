@@ -1,11 +1,12 @@
 import React from 'react';
+import './Skills.css';
 
 const Skills = () => {
   return (
-    <section id="skills">
+    <div id="skills" className="section-container">
       <h2>My Skills</h2>
-      <p>This is the skills section.</p>
-    </section>
+      <p>Details about your skills.</p>
+    </div>
   );
 };
 
