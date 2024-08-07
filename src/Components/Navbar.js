@@ -1,21 +1,41 @@
-import React from 'react';
+import React, { useState } from 'react';
 import './Navbar.css';
 
 const Navbar = () => {
+  const [activeSection, setActiveSection] = useState('');
+
+  const handleClick = (section) => {
+    setActiveSection(section);
+    const element = document.getElementById(section);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    } else {
+      console.error(`Section with id ${section} not found.`);
+    }
+  };
+
   return (
     <nav className="navbar">
-      <div className="container">
-        <div className="logo">My Nigga</div>
-        <ul className="nav-links">
-          <li><a href="#home">Home</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#projects">Projects</a></li>
-          <li><a href="#skills">Skills</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
-      </div>
+      <ul>
+        <li className={activeSection === 'home' ? 'active' : ''}>
+          <a href="#home" onClick={() => handleClick('home')}>Home</a>
+        </li>
+        <li className={activeSection === 'about' ? 'active' : ''}>
+          <a href="#about" onClick={() => handleClick('about')}>About</a>
+        </li>
+        <li className={activeSection === 'projects' ? 'active' : ''}>
+          <a href="#projects" onClick={() => handleClick('projects')}>Projects</a>
+        </li>
+        <li className={activeSection === 'skills' ? 'active' : ''}>
+          <a href="#skills" onClick={() => handleClick('skills')}>Skills</a>
+        </li>
+        <li className={activeSection === 'contact' ? 'active' : ''}>
+          <a href="#contact" onClick={() => handleClick('contact')}>Contact</a>
+        </li>
+      </ul>
     </nav>
   );
 };
+
 
 export default Navbar;

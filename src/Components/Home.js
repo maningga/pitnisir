@@ -3,10 +3,12 @@ import './Home.css';
 
 const Home = () => {
   return (
-    <div id="home" className="section-container">
-      <h1>Welcome to My Portfolio</h1>
-      <p>Introduction and overview of your work.</p>
-    </div>
+    <section id="home" className="home"> {/* Add id="home" here */}
+      <div className="home-container">
+        <h1>Welcome to My Portfolio</h1>
+        <p>Here’s a brief introduction to what I do.</p>
+      </div>
+    </section>
   );
 };
 

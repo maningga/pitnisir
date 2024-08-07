@@ -11,11 +11,13 @@ function App() {
   return (
     <div className="App">
       <Navbar />
-      <Home />
-      <About />
-      <Projects />
-      <Skills />
-      <Contact />
+      <Home style={{ marginTop: '120px' }} /> {/* Apply margin-top inline */}
+      <div className="main-container">
+        <div className="grid-item"><About /></div>
+        <div className="grid-item"><Projects /></div>
+        <div className="grid-item"><Skills /></div>
+        <div className="grid-item"><Contact /></div>
+      </div>
     </div>
   );
 }

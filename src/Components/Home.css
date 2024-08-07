@@ -1,13 +1,12 @@
-/* src/Components/Home.css */
 .home {
-    padding: 60px 20px; /* Adjust padding if needed */
-    color: white; /* Text color */
-    text-align: center; /* Center text */
-  }
-  
-  .home-container {
-    padding: 20px;
-    border-radius: 10px; /* Rounded corners */
-    display: inline-block; /* Fit content width */
-  }
-  
+  color: white; /* Text color */
+  text-align: center; /* Center text */
+  margin-top: 100px; /* Space below the Navbar */
+}
+
+.home-container {
+  padding: 20px;
+  border-radius: 10px; /* Rounded corners */
+  display: inline-block; /* Fit content width */
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background for readability */
+}

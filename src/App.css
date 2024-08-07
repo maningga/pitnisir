@@ -1,11 +1,13 @@
-/* src/App.css */
+html {
+  scroll-behavior: smooth;
+}
 
 body {
   margin: 0;
   font-family: Arial, sans-serif;
   color: #ffffff;
   line-height: 1.6;
-  background: url('piksor/bgp.jpg') no-repeat center center fixed;
+  background: url('piksor/yippie.gif') no-repeat center center fixed;
   background-size: cover;
 }
 
@@ -14,56 +16,44 @@ body {
   display: flex;
   flex-direction: column;
   text-align: center;
-  padding-top: 178px;
 }
 
-/* Container styling */
-.container {
-  position: relative;
-  padding: 50px 20px;
-  margin: 0 auto;
-  max-width: 1200px; /* Adjust based on your design */
-  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
-  border-radius: 10px; /* Optional: rounded corners */
-  z-index: 2; /* Ensure it’s above the background */
-}
-
-/* General Section Styles */
-section {
-  position: relative;
-  padding: 50px 20px;
-  color: #000; /* Black text color */
-}
-
-/* Overlay styles */
-section::before {
-  content: "";
-  position: absolute;
+.Navbar {
+  position: fixed; /* Ensure the Navbar is fixed */
   top: 0;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(0, 0, 0, 0.5); /* Semi-transparent black overlay */
-  z-index: 1; /* Ensure it’s behind the text but above the background */
-}
-
-/* Ensure text content is above the overlay */
-section > * {
-  position: relative;
-  z-index: 2; /* Ensure content is above the overlay */
-}
-
-/* Specific section styles */
-.Home, .About, .Projects, .Skills, .Contact {
-  padding: 50px 20px;
+  z-index: 1000; /* Ensure it’s above other content */
 }
 
 .Home {
-  text-align: center;
+  padding: 50px 20px;
+  padding-top: 120px; /* Adds space below the Navbar */
 }
 
-.Home h1 {
-  font-size: 2.5rem;
+.main-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); /* Creates 2 columns */
+  grid-template-rows: repeat(2, auto); /* Creates 2 rows with auto height */
+  gap: 20px; /* Space between grid items */
+  padding: 50px 20px;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  color: #ffffff; /* White text color for contrast */
+  border-radius: 10px; /* Optional: rounded corners */
+  margin-top: 30px; /* Space below Home component */
+}
+
+.grid-item {
+  padding: 20px;
+  background: rgba(0, 0, 0, 0.6); /* Semi-transparent black background */
+  color: #ffffff; /* White text color for contrast */
+  border-radius: 10px; /* Optional: rounded corners */
+}
+
+/* Ensure text content is above the overlay */
+.grid-item > * {
+  position: relative;
+  z-index: 2; /* Ensure content is above the overlay */
 }
 
 .Navbar ul {
@@ -92,8 +82,4 @@ section > * {
   .Navbar li {
     margin: 10px 0;
   }
-  /* src/App.css or global CSS file */
-html {
-  scroll-behavior: smooth;
-}
 }
