@@ -1,5 +1,5 @@
 .navbar {
-  background: rgba(0, 0, 0.8);
+  background: rgba(0, 0, 0, 0.8);
   padding: 10px;
   position: fixed;
   width: 100%;
@@ -84,4 +84,20 @@
   .navbar li {
     margin: 10px 0;
   }
+}
+
+/* Mute button styles */
+.mute-button {
+  background: none; /* Remove the background color */
+  border: none; /* Remove the border */
+  cursor: pointer; /* Change the cursor to a pointer on hover */
+  font-size: 24px; /* Adjust the font size as needed */
+  padding: 0; /* Remove padding */
+  margin: 0; /* Remove margin */
+  color: #fff; /* Ensure the text color matches the Navbar */
+}
+
+/* Optional: Add hover effects */
+.mute-button:hover {
+  opacity: 0.7; /* Slightly fade the button on hover */
 }
