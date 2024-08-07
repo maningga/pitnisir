@@ -9,11 +9,11 @@ const Contact = () => {
         <h2>Contact Me</h2>
         <p>
           Email: {' '}
-          <a href="mailto:kenortiz14@gmail.com" className="contact-link">kenortiz14@gmail.com</a>
+          <a href="https://mail.google.com/mail/u/2/#inbox?compose=GTvVlcSHxwVvPDRxpjCGFXWnqZHmXMGGkdnxRcGVnLGRTMpFvJsBPzcLLVPMQKqFNjnBxdpbzdPTg" className="contact-link">kenortiz14@gmail.com</a>
         </p>
         <p>
         Facebook: {' '}
-          <a href="https://www.facebook.com/KenOrtiz" target="_blank" rel="noopener noreferrer" className="contact-link">Facebook: Ken Ortiz</a>
+          <a href="https://www.facebook.com/profile.php?id=100095574515938" target="_blank" rel="noopener noreferrer" className="contact-link">Ken Ortiz</a>
         </p>
       </div>
     </section>
