@@ -1,4 +1,5 @@
 /* src/Components/Projects.css */
+
 .section-container {
   padding: 50px 20px; /* Adjust padding as needed */
   background: rgba(0, 0, 0, 0.5); /* Semi-transparent black background */
@@ -10,4 +11,16 @@
 
 .content-container {
   text-align: center; /* Center the text inside */
+}
+
+/* Styling the link */
+.content-container a {
+  color: rgb(174, 55, 221); /* Change this to your preferred color */
+  text-decoration: none; /* Removes the underline */
+  font-weight: bold; /* Makes the link text bold */
+}
+
+.content-container a:hover {
+  color: #0a0; /* Change this to the color you want for the hover effect */
+  text-decoration: underline; /* Adds underline on hover */
 }

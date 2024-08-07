@@ -1,13 +1,17 @@
-// src/Components/Projects.js
 import React from 'react';
 import './Projects.css';
 
 const Projects = () => {
   return (
-    <section id="projects" className="section-container"> {/* Use <section> for semantic HTML */}
+    <section id="projects" className="section-container">
       <div className="content-container">
         <h2>My Projects</h2>
-        <p>Details about your projects.</p>
+        <p>
+          Find my works at{' '}
+          <a href="https://github.com/maningga" target="_blank" rel="noopener noreferrer">
+            https://github.com/maningga
+          </a>.
+        </p>
       </div>
     </section>
   );

@@ -11,3 +11,12 @@
 .content-container {
   text-align: center; /* Center the text inside */
 }
+
+.contact-link {
+  color: #4CAF50; /* Change to desired link color */
+  text-decoration: none; /* Remove underline */
+}
+
+.contact-link:hover {
+  text-decoration: underline; /* Add underline on hover */
+}
