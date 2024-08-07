@@ -1,17 +1,18 @@
 {
   "files": {
-    "main.css": "/pitnisir/static/css/main.fb89e92e.css",
-    "main.js": "/pitnisir/static/js/main.b33e5c66.js",
+    "main.css": "/pitnisir/static/css/main.2b8f750d.css",
+    "main.js": "/pitnisir/static/js/main.82bfe226.js",
     "static/js/453.9b8ccc48.chunk.js": "/pitnisir/static/js/453.9b8ccc48.chunk.js",
+    "static/media/water.mp3": "/pitnisir/static/media/water.18599410890b0b9a4237.mp3",
     "static/media/reli.JPG": "/pitnisir/static/media/reli.9e639157564654ff6d1e.JPG",
     "static/media/yippie.gif": "/pitnisir/static/media/yippie.51d27f98acde91ba2c9b.gif",
     "index.html": "/pitnisir/index.html",
-    "main.fb89e92e.css.map": "/pitnisir/static/css/main.fb89e92e.css.map",
-    "main.b33e5c66.js.map": "/pitnisir/static/js/main.b33e5c66.js.map",
+    "main.2b8f750d.css.map": "/pitnisir/static/css/main.2b8f750d.css.map",
+    "main.82bfe226.js.map": "/pitnisir/static/js/main.82bfe226.js.map",
     "453.9b8ccc48.chunk.js.map": "/pitnisir/static/js/453.9b8ccc48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.fb89e92e.css",
-    "static/js/main.b33e5c66.js"
+    "static/css/main.2b8f750d.css",
+    "static/js/main.82bfe226.js"
   ]
 }
