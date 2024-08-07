@@ -1,16 +1,17 @@
 {
   "files": {
-    "main.css": "/pitnisir/static/css/main.b758f5ce.css",
-    "main.js": "/pitnisir/static/js/main.64635eb0.js",
+    "main.css": "/pitnisir/static/css/main.fb89e92e.css",
+    "main.js": "/pitnisir/static/js/main.e95c6e29.js",
     "static/js/453.9b8ccc48.chunk.js": "/pitnisir/static/js/453.9b8ccc48.chunk.js",
+    "static/media/reli.JPG": "/pitnisir/static/media/reli.9e639157564654ff6d1e.JPG",
     "static/media/yippie.gif": "/pitnisir/static/media/yippie.51d27f98acde91ba2c9b.gif",
     "index.html": "/pitnisir/index.html",
-    "main.b758f5ce.css.map": "/pitnisir/static/css/main.b758f5ce.css.map",
-    "main.64635eb0.js.map": "/pitnisir/static/js/main.64635eb0.js.map",
+    "main.fb89e92e.css.map": "/pitnisir/static/css/main.fb89e92e.css.map",
+    "main.e95c6e29.js.map": "/pitnisir/static/js/main.e95c6e29.js.map",
     "453.9b8ccc48.chunk.js.map": "/pitnisir/static/js/453.9b8ccc48.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.b758f5ce.css",
-    "static/js/main.64635eb0.js"
+    "static/css/main.fb89e92e.css",
+    "static/js/main.e95c6e29.js"
   ]
 }
